@@ -1,54 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
-    margin: 0;
-    padding: 0;
+    background-color: #fddde6;
+    font-family: 'Arial, sans-serif';
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
-.card-container {
+.card {
     background-color: #ffffff;
-    padding: 20px 40px;
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 400px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
 }
 
-h1 {
-    color: #ff4081;
+.title {
+    font-size: 36px;
+    color: #e60073;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
-button {
-    background-color: #ff4081;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.title span {
+    color: #ff4da6;
+    text-shadow: 1px 1px 10px rgba(255, 100, 200, 0.8);
 }
 
-button:hover {
-    background-color: #e1336b;
+.heart-icons {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-.hidden {
-    display: none;
+.message {
+    font-size: 20px;
+    color: #333;
 }
 
-.gift-link {
+.character-img {
+    max-width: 200px;
+    margin: 15px auto;
     display: block;
-    margin-top: 10px;
-    font-size: 18px;
-    color: #3498db;
-    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.gift-link:hover {
-    text-decoration: underline;
+.custom-note {
+    font-size: 18px;
+    font-style: italic;
+    color: #ff0066;
+    margin-top: 15px;
 }
