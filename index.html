@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Virtual Gift Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card-container">
+        <h1>💌 Surprise! You’ve Received a Gift! 💌</h1>
+        
+        <div class="gift-card">
+            <p><strong>Dear [Recipient’s Name],</strong></p>
+            <p>You've been gifted a special surprise! Click the button below to see what it is.</p>
+            
+            <!-- Button to reveal the gift -->
+            <button id="reveal-button">Open Your Gift 🎁</button>
+            
+            <!-- Hidden message that appears when the button is clicked -->
+            <div id="gift-message" class="hidden">
+                <h2>🎉 Congratulations! 🎉</h2>
+                <p>You’ve been gifted a $50 digital card for [Store Name]!</p>
+                <a href="https://www.examplegiftlink.com" target="_blank" class="gift-link">Redeem Your Gift</a>
+            </div>
+        </div>
+    </div>
 
+    <script src="script.js"></script>
+</body>
+</html>
