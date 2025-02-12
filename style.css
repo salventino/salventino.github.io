@@ -26,8 +26,8 @@ body {
 }
 
 .title span {
-    /* color: #ff4da6;
-    text-shadow: 1px 1px 10px rgba(255, 100, 200, 0.8); */
+    color: #ff4da6;
+    text-shadow: 1px 1px 10px rgba(255, 100, 200, 0.8);
     background-image: linear-gradient(45deg, #ff0066, #ff99cc, #ff0066);
     -webkit-background-clip: text;
     color: transparent;
